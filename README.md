@@ -5,6 +5,7 @@
 a) **openssl genrsa -out ca.key 2048**
 
 b) **openssl req -new -x509 -days 10240 -key ca.key -out ca.crt**
+
        Country Name (2 letter code) [AU]:IN
        
        State or Province Name (full name) [Some-State]:MH
