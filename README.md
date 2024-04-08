@@ -27,6 +27,7 @@ c) **openssl x509 -in ca.crt –text**
 d) **openssl genrsa –out doamin.key 2048**
 
 e)**openssl req -new -key domain.key –out domain.csr**
+
       Country Name (2 letter code) [AU]:IN
       
       State or Province Name (full name) [Some-State]:MH
