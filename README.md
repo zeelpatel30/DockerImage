@@ -64,4 +64,4 @@ g) **openssl x509 -req -extfile v3.ext -days 1024 -in domain.csr -CA ca.crt -CAk
 
 3)  **docker ps**
 
-4)   **curl -X GET https://<IP>:5000/v2/_catalog**
+4)   **curl -X GET https://IP:5000/v2/_catalog**
