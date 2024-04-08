@@ -42,7 +42,7 @@ e)**openssl req -new -key domain.key –out domain.csr**
 
 f) **cat>>v3.txt**
 
-      Appended the below detail in v3 file.
+      Append the below detail in v3 file.
           
           authorityKeyIdentifier=keyid,issuer
           
