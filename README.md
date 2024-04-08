@@ -1,5 +1,5 @@
 
-1)	**Create the certificate using openssl at mkdir /usr/local/docker/localregistry/certs**
+1)**Create the certificate using openssl at mkdir /usr/local/docker/localregistry/certs**
 
 
 a) **openssl genrsa -out ca.key 2048**
