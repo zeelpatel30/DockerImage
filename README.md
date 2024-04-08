@@ -10,6 +10,9 @@ b) **openssl req -new -x509 -days 10240 -key ca.key -out ca.crt**
        Organizational Unit Name (eg, section) []:IT
        Common Name (e.g. server FQDN or YOUR name) []:mumbaisupport.com
        Email Address []:test@mumbaisupport.com
+
+
+       
 c) **openssl x509 -in ca.crt –text**
 d) **openssl genrsa –out doamin.key 2048**
 e)**openssl req -new -key domain.key –out domain.csr**
